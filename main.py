@@ -182,7 +182,7 @@ async def API(ctx):
         if response2.content in ['claro']:
             await ctx.send("Nosotros pedimos en formato <requests>, y nos los regresa en formato <json>.")
             await ctx.send("Tambien están los status code, como le fue a nuestra solicitud, 404 es que no se encontró, 500 es que el servidor no lo procesó, etc.")
-            await ctx.send("Un ejemplo es la siguiente página: ")
+            await ctx.send("Un ejemplo es la siguiente página:  https://alex789-oss.github.io/hospot/ ")
 
 @bot.command()
 async def poke(ctx,arg):
